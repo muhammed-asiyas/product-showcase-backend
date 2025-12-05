@@ -22,6 +22,7 @@ app.get("/api/products/:id", productController.getProductById);
 // Enquiry Routes
 app.post("/api/enquiries", enquiryController.createEnquiry);
 app.get("/api/enquiries", enquiryController.getEnquiries);
+app.delete("/api/enquiries/:id", enquiryController.deleteEnquiry);
 
 // Basic Error Handler for routes not found
 app.use((req, res) => {
