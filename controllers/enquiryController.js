@@ -33,3 +33,19 @@ exports.getEnquiries = async (req, res) => {
     res.status(500).json({ message: "Failed to fetch enquiries" });
   }
 };
+
+exports.deleteEnquiry = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const result = await Enquiry.delete(id);
+
+    if (result.deleted === 0) {
+      return res.status(404).json({ message: "Enquiry not found" });
+    }
+
+    res.json({ message: "Enquiry deleted successfully" });
+  } catch (err) {
+    res.status(500).json({ message: "Failed to delete enquiry" });
+  }
+};

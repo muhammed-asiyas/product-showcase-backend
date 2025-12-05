@@ -9,10 +9,7 @@ const Enquiry = {
       `;
 
       db.run(sql, [product_id, name, email, phone, message], function (err) {
-        if (err) {
-          console.error("Database Insert Error:", err);
-          return reject(err);
-        }
+        if (err) return reject(err);
         resolve({ id: this.lastID });
       });
     });
@@ -28,11 +25,19 @@ const Enquiry = {
       `;
 
       db.all(sql, [], (err, rows) => {
-        if (err) {
-          console.error("Database Fetch Error:", err);
-          return reject(err);
-        }
+        if (err) return reject(err);
         resolve(rows);
+      });
+    });
+  },
+
+  delete: (id) => {
+    return new Promise((resolve, reject) => {
+      const sql = `DELETE FROM enquiries WHERE id = ?`;
+
+      db.run(sql, [id], function (err) {
+        if (err) return reject(err);
+        resolve({ deleted: this.changes });
       });
     });
   }

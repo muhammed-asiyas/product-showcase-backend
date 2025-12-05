@@ -3,8 +3,7 @@ const router = express.Router();
 const enquiryController = require("../controllers/enquiryController");
 
 router.post("/", enquiryController.createEnquiry);
-
-// Admin route
 router.get("/admin/all", enquiryController.getEnquiries);
+router.delete("/:id", enquiryController.deleteEnquiry);
 
 module.exports = router;
