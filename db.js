@@ -29,13 +29,10 @@ db.serialize(() => {
 ('External Hard Drive 1TB', 'Electronics', 'Portable HDD.', 'Fast and durable 1TB external hard drive for backup.', 3999.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764943819/51oCAuoDQkL._SX679__tyvgj4.jpg'),
 ('USB-C Fast Charger', 'Electronics', '20W quick charger.', 'Fast USB-C charger compatible with all major phones.', 999.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764943830/51SlfeRaHpL._SX522__dmwjbu.jpg'),
 ('The Power of Habit', 'Books', 'Self-help bestseller.', 'A book about building effective habits and breaking bad ones.', 499.00, 'https://images.unsplash.com/photo-1512820790803-83ca734da794'),
-('Atomic Habits', 'Books', 'Transform your habits.', 'Learn how tiny changes create remarkable results.', 399.00, 'https://images.unsplash.com/photo-1528207776546-365bb710ee93'),
-('Rich Dad Poor Dad', 'Books', 'Financial education classic.', 'Learn about financial freedom and building wealth.', 299.00, 'https://images.unsplash.com/photo-1544936207-395b6fea126b'),
 ('Think and Grow Rich', 'Books', 'Motivational classic.', 'A guide to achieving personal and financial success.', 349.00, 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f'),
 ('The Alchemist', 'Books', 'Inspirational novel.', 'A story of self-discovery and following your dreams.', 199.00, 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9'),
-('You Can Win', 'Books', 'Self-help book.', 'A practical guide to achieving success with a positive mindset.', 250.00, 'https://images.unsplash.com/photo-1528207776546-365bb710ee93'),
-('Python Programming Basics', 'Books', 'Learn Python.', 'Beginner-friendly tutorial book for Python programming.', 599.00, 'https://images.unsplash.com/photo-1517430816045-df4b7de1cd0b'),
-('JavaScript for Beginners', 'Books', 'JS guide.', 'A modern step-by-step guide to JavaScript programming.', 549.00, 'https://images.unsplash.com/photo-1581092334573-0505ce8e3b4b'),
+('Python Programming Basics', 'Books', 'Learn Python.', 'Beginner-friendly tutorial book for Python programming.', 599.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764944455/71H0XTjr7dL._SY385__bzvlwx.jpg'),
+('JavaScript for Beginners', 'Books', 'JS guide.', 'A modern step-by-step guide to JavaScript programming.', 549.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764944463/61HUuiDH_0L._SY385__srpnw5.jpg'),
 ('React.js Mastery', 'Books', 'Frontend development.', 'Master React.js with real-world examples and projects.', 650.00, 'https://images.unsplash.com/photo-1587620962725-abab7fe55159'),
 ('Data Structures & Algorithms', 'Books', 'Coding fundamentals.', 'Complete guide to DSA for interviews and learning.', 699.00, 'https://images.unsplash.com/photo-1553729459-efe14ef6055d');
   `);
