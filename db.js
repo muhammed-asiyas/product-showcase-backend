@@ -33,8 +33,7 @@ db.serialize(() => {
 ('The Alchemist', 'Books', 'Inspirational novel.', 'A story of self-discovery and following your dreams.', 199.00, 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9'),
 ('Python Programming Basics', 'Books', 'Learn Python.', 'Beginner-friendly tutorial book for Python programming.', 599.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764944455/71H0XTjr7dL._SY385__bzvlwx.jpg'),
 ('JavaScript for Beginners', 'Books', 'JS guide.', 'A modern step-by-step guide to JavaScript programming.', 549.00, 'https://res.cloudinary.com/dlhgbo0ji/image/upload/v1764944463/61HUuiDH_0L._SY385__srpnw5.jpg'),
-('React.js Mastery', 'Books', 'Frontend development.', 'Master React.js with real-world examples and projects.', 650.00, 'https://images.unsplash.com/photo-1587620962725-abab7fe55159'),
-('Data Structures & Algorithms', 'Books', 'Coding fundamentals.', 'Complete guide to DSA for interviews and learning.', 699.00, 'https://images.unsplash.com/photo-1553729459-efe14ef6055d');
+('React.js Mastery', 'Books', 'Frontend development.', 'Master React.js with real-world examples and projects.', 650.00, 'https://images.unsplash.com/photo-1587620962725-abab7fe55159');
   `);
 
   db.run(`
